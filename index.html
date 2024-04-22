@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Home</title>
+<meta charset="utf-8">    
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+<meta name="description" content="Your description">
+<meta name="keywords" content="Your keywords">
+<meta name="author" content="Your name">
+<meta name = "format-detection" content = "telephone=no" />
+<!--CSS-->
+<link rel="stylesheet" href="css/bootstrap.css" >
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/camera.css">
+<link rel="stylesheet" href="fonts/font-awesome.css">
+<!--JS-->
+<script src="js/jquery.js"></script>
+<script src="js/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/jquery.mobilemenu.js"></script>
+<script src="js/jquery.equalheights.js"></script> 
+<script src="js/camera.js"></script> 
+<!--[if (gt IE 9)|!(IE)]><!-->
+<script src="js/jquery.mobile.customized.min.js"></script>
+<!--<![endif]-->
+<script src="js/jquery.carouFredSel-6.1.0-packed.js"></script>
+<script src="js/jquery.touchSwipe.min.js"></script>
+<script>
+    $(document).ready(function(){
+        jQuery('.camera_wrap').camera();
+    });
+</script>
+<script>
+    $(window).load(function() {
+        $(function() {
+            $('#foo1').carouFredSel({
+				auto: false,
+				responsive: true,
+				width: '100%',
+				scroll: 1,
+                prev: '#prev1',
+				next: '#next1',
+				items: {
+					height: 'auto',
+					width:270,
+					visible: {
+						min: 1,
+						max: 3
+					}
+				},
+				mousewheel: true,
+				swipe: {
+					onMouse: true,
+					onTouch: true
+				}
+			});
+		});  	 				
+      });
+</script>
+<!--[if (gt IE 9)|!(IE)]><!-->
+<script src="js/wow/wow.js"></script>
+<script src="js/wow/device.min.js"></script>
+<script>
+    $(document).ready(function () {       
+      if ($('html').hasClass('desktop')) {
+        new WOW().init();
+      }   
+    });
+</script>
+<!--<![endif]-->
+
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+
+    <div id="ie6-alert" style="width: 100%; text-align:center;">
+    <img src="http://beatie6.frontcube.com/images/ie6.jpg" alt="Upgrade IE 6" width="640" height="344" border="0" usemap="#Map" longdesc="http://die6.frontcube.com" />
+      <map name="Map" id="Map"><area shape="rect" coords="496,201,604,329" href="http://www.microsoft.com/windows/internet-explorer/default.aspx" target="_blank" alt="Download Interent Explorer" /><area shape="rect" coords="380,201,488,329" href="http://www.apple.com/safari/download/" target="_blank" alt="Download Apple Safari" /><area shape="rect" coords="268,202,376,330" href="http://www.opera.com/download/" target="_blank" alt="Download Opera" /><area shape="rect" coords="155,202,263,330" href="http://www.mozilla.com/" target="_blank" alt="Download Firefox" />
+        <area shape="rect" coords="35,201,143,329" href="http://www.google.com/chrome" target="_blank" alt="Download Google Chrome" />
+      </map>
+  </div>
+  <![endif]-->
+</head>
+<body>
+<!--header-->
+<header>
+    <div class="container">
+        <div class="box">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-7 wow fadeInDown">
+                    <h1 class="navbar-brand navbar-brand_"><a href="index.html"><img src="img/logo-Photoroom.jpg" alt=""></a></h1>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-5 wow fadeInDown" data-wow-delay="0.1s">
+                    <nav class="navbar navbar-default navbar-static-top tm_navbar clearfix" role="navigation">
+                        <ul class="nav sf-menu clearfix">
+                            <li class="active"><a href="index.html">Home</a></li>
+                            <li class="sub-menu"><a href="https://en.wikipedia.org/wiki/Reptile">Types</a><span class="fa fa-angle-down"></span>
+                                <ul class="submenu">
+                                    <li><a href="https://en.wikipedia.org/wiki/Crocodilia">Crocodilians</a></li>
+                                    <li><a href="https://en.wikipedia.org/wiki/Turtle">Turtles</a></li>
+                                    <li><a href="https://en.wikipedia.org/wiki/Squamata">Squamates</a><span class="fa fa-angle-down"></span>
+                                        <ul class="submenu">
+                                            <li><a href="https://en.wikipedia.org/wiki/Lizard">Lizards</a></li>
+                                            <li><a href="https://en.wikipedia.org/wiki/Snake">Snakes</a></li>
+                                            <li><a href="https://en.wikipedia.org/wiki/Amphibian">Amphibian</a></li>
+
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="index-2.html">History</a></li>
+                            <li><a href="index-1.html">About</a></li>
+                            <li><a href="index-4.html">contacts</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 wow fadeInDown" data-wow-delay="0.2s">
+                    <ul class="follow_icon">
+                        <li><a href="#" class="fa fa-twitter"></a></li>
+                        <li><a href="#" class="fa fa-facebook"></a></li>
+                        <li><a href="#" class="fa fa-youtube-square"></a></li>
+                     </ul>
+                     <p><span>Contacts:</span></p>
+                     <p>Transport Nagar Jakariyapur,<br>Gas Godam Gali<br>email: <a href="#">paisachaser@gmail.com</a></p>
+                     <p class="phone">7986855147</p>
+                </div>
+            </div>
+        </div>
+        <div class="slider">  
+            <div class="camera_wrap">
+                <div data-src="img/iguana.webp">
+                    <div class="camera-caption moveFromLeft">
+                        <div class="box1">
+                            <p class="number">01/</p>
+                            <p class="name">Galápagos Land Iguana</p>
+                        </div>
+                        <div class="box2">
+                            <p>A very large species of lizard in the family Iguanidae.
+                                Endemic to the Galápagos Islands, found in the dry lowlands of several islands.
+                                There are two other species of Conolophus: the Galápagos pink land iguana (C. marthae) and the Santa Fe land iguana (C. pallidus).</p>
+                            <a href="#" class="btn-default btn1">Know more <span></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div data-src="img/greengecko.webp">
+                    <div class="camera-caption moveFromLeft">
+                        <div class="box1">
+                            <p class="number">02/</p>
+                            <p class="name">Green<br>Geecko</p>
+                        </div>
+                        <div class="box2">
+                            <p>The term ‘green gecko’ generally refers to species within the genus Naultinus, which are endemic to New Zealand. These geckos are characterized by their striking green coloration, setting them apart from most of the world’s other two thousand gecko species, which are typically brown. Naultinus species are ovoviviparous, meaning they give birth to live young rather than laying eggs, and they exhibit a range of traits that differentiate them from other gecko species, such as being generally short-lived and nocturnal.</p>
+                            <a href="#" class="btn-default btn1">Know more <span></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div data-src="img/tort.webp">
+                    <div class="camera-caption moveFromLeft">
+                        <div class="box1">
+                            <p class="number">03/</p>
+                            <p class="name">Tortoise</p>
+                        </div>
+                        <div class="box2">
+                            <p>Tortoises (/ˈtɔːr.təs.ɪz/) are reptiles of the family Testudinidae of the order Testudines (Latin for "tortoise"). Like other turtles, tortoises have a shell to protect from predation and other threats. The shell in tortoises is generally hard, and like other members of the suborder Cryptodira, they retract their necks and heads directly backward into the shell to protect them.
+
+                            </p>
+                            <a href="#" class="btn-default btn1">Know more <span></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div data-src="img/cham.webp">
+                    <div class="camera-caption moveFromLeft">
+                        <div class="box1">
+                            <p class="number">04/</p>
+                            <p class="name">Chameleon</p>
+                        </div>
+                        <div class="box2">
+                            <p>Chameleons or chamaeleons (family Chamaeleonidae) are a distinctive and highly specialized clade of Old World lizards with 200 species described as of June 2015.[1] The members of this family are best known for their distinct range of colours, being capable of colour-shifting camouflage. The large number of species in the family exhibit considerable variability in their capacity to change colour. For some, it is more of a shift of brightness (shades of brown); for others, a plethora of colour-combinations (reds, yellows, greens, blues) can be seen.</p>
+                            <a href="#" class="btn-default btn1">buy now! <span></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <em></em>
+</header>
+<!--content-->
+<div class="content"> 
+    <div class="thumb-box1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-8">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 wow fadeInLeft" data-wow-delay="0.1s">
+                            <p class="title">Reptile Facts</p>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 wow fadeInLeft">
+                            <p class="description">There are about 6500 different reptile species, with around 2700 being different types of snakes.</p>
+                            <a href="#" class="btn-default btn2">To know more facts!<span></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="thumb-box2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-12 wow fadeInLeft" data-wow-delay="0.2s">
+                    <p class="title">Professional reptile Expert</p>
+                    <p>What is a reptile expert??</p>
+                    <p>Answer-An reptile expert, also known as a herpetologist, is a zoologist who specializes in the study of reptiles and amphibians. They research various aspects of these animals, such as their behaviors, geographic ranges, physiologies, development, genetics, and more. Herpetologists may focus on conservation efforts, assessing environmental conditions, or conducting medical research involving reptiles and amphibians.</p>
+                </div>
+                <div class="col-lg-5 col-md-5 col-sm-6 wow fadeInLeft">
+                    <figure>
+                		<img src="img/IMG_20231116_083219441_HDR.jpg" alt="" width="400" height="300">
+                		<figcaption>
+                			<span>
+                                <a href="#" class="fa fa-twitter"></a>
+                                <a href="#" class="fa fa-google-plus"></a>
+                            </span>
+                		</figcaption>			
+                	</figure>
+                    <div class="extra-wrap">
+                        <p class="description"><i></i>"Having studied reptiles for over a decade, I've witnessed the intricate behaviors and adaptations that make them fascinating creatures."</p>
+                        
+                           <p> "As a reptile professional, my expertise extends from understanding the nuances of reptile biology to implementing effective conservation strategies."<b></b></p>
+                        <a href="#" class="lnk">Abhinav Krishna Narayan</a>
+                        <strong>(professional <br>reptile expert)</strong>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 wow fadeInRight">
+                            <ul class="list1">
+                                <li><span>-</span><a href="#">Strophurus</a></li>
+                                <li><span>-</span><a href="#">Nephrurus</a></li>
+                                <li><span>-</span><a href="#">Agamas</a></li>
+                                <li><span>-</span><a href="#">Skinks</a></li>
+                                <li><span>-</span><a href="#">Varanus</a></li>
+                                <li><span>-</span><a href="#">Facility</a></li>
+                                <li><span>-</span><a href="#">Royal pythons</a></li>
+                                <li><span>-</span><a href="#">Other snakes</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 wow fadeInRight" data-wow-delay="0.2s">
+                            <ul class="list1">
+                                <li><span>-</span><a href="#">Leopard geckos</a></li>
+                                <li><span>-</span><a href="#">Other geckos</a></li>
+                                <li><span>-</span><a href="#">mating</a></li>
+                                <li><span>-</span><a href="#">Eggs hatching</a></li>
+                                <li><span>-</span><a href="#">Tortoises</a></li>
+                                <li><span>-</span><a href="#">Sex Identification</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="thumb-box3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-6 wow fadeInLeft" data-wow-delay="0.2s">
+                    <p class="title">guaranteed to love them</p>
+                    <p>I give you guarantee that you will eventually love these crawling creatures.</p>
+                    <a href="#" class="btn-default btn3">read more</a>
+                </div>
+                
+                <div class="col-lg-6 col-md-6 col-sm-12 wow fadeInRight">
+                    <div class="list_carousel1 responsive clearfix">
+                        <ul id="foo1">
+                            <li>
+                                <figure>
+                            		<img src="img/page1_pic2.jpg" alt="">
+                            		<figcaption>
+                            			<p>Lizard</p>
+                            		</figcaption>			
+                            	</figure>
+                                <p>Praesent vestibulum aenean nonummy hendrerit mauris. Cum sociis natoque penatibus et magnis dis parturient.</p>
+                            </li>
+                            <li>
+                                <figure>
+                            		<img src="img/page1_pic3.jpg" alt="">
+                            		<figcaption>
+                            			<p>Brown Salamander</p>
+                            		</figcaption>			
+                            	</figure>
+                                <p>Salamanders are a group of amphibians typically characterized by their lizard-like appearance, with slender bodies, blunt snouts, short limbs projecting at right angles to the body, and the presence of a tail in both larvae and adults.</p>
+                            </li>
+                            <li>
+                                <figure>
+                            		<img src="img/page1_pic4.jpg" alt="">
+                            		<figcaption>
+                            			<p>Chameleon</p>
+                            		</figcaption>			
+                            	</figure>
+                                <p>Chamaeleon was one of twelve constellations created by Petrus Plancius from the observations of Pieter Dirkszoon Keyser and Frederick de Houtman.</p>
+                            </li>
+                            <li>
+                                <figure>
+                            		<img src="img/page1_pic5.jpg" alt="">
+                            		<figcaption>
+                            			<p>Sand Lizard</p>
+                            		</figcaption>			
+                            	</figure>
+                                <p>The sand lizard (Lacerta agilis) is a lacertid lizard distributed across most of Europe from France and across the continent to Lake Baikal in Russia.</p>
+                            </li>
+                            <li>
+                                <figure>
+                            		<img src="img/page1_pic6.jpg" alt="">
+                            		<figcaption>
+                            			<p>American Green Tree Frog
+                                        </p>
+                            		</figcaption>			
+                            	</figure>
+                                <p>Native to the central and southeastern United States.
+                                    Bright green to reddish-brown coloration, with a light white or cream-colored stripe from the side of the head down to the flanks..</p>
+                            </li>
+                            <li>
+                                <figure>
+                            		<img src="img/page1_pic7.jpg" alt="">
+                            		<figcaption>
+                            			<p>Poison dart frog</p>
+                            		</figcaption>			
+                            	</figure>
+                                <p>Poisonous frogs are amphibians that secrete toxins through their skin as a defense mechanism against predators. These toxins can be dangerous, and in some cases, lethal to other animals</p>
+                            </li>
+                        </ul>
+                        <div class="list_btn1">
+                            <a id="prev1" class="prev2" href="#"></a>
+                            <a id="next1" class="next2" href="#"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--footer-->
+<footer>
+    <div class="container wow fadeInUp">
+        <figure><img src="img/foo_logo.png" alt=""></figure>
+        <p>&copy; <em id="copyright-year"></em> | <a href="index-5.html">Privacy Policy</a></p>
+    </div>
+  <!-- {%FOOTER_LINK} -->
+</footer>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/tm-scripts.js"></script>
+</body>
+</html>
